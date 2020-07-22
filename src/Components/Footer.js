@@ -1,7 +1,6 @@
 import React from "react";
-// import chatbox from './assets/images/chatbox-icon.png';
-import "./styles/Footer.css";
-
+import chatBox from "../assets/chatbox-icon.png";
+import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
@@ -16,7 +15,6 @@ function Footer() {
           <input type="text" placeholder="Email address" />
           <hr id="email-hr" />
         </div>
-
         <div id="links">
           <p>Contact us</p>
           <ul className="contact-us">
@@ -57,9 +55,9 @@ function Footer() {
           </ul>
         </div>
       </div>
-      {/* <a href="">
-        <img id="chatbox" src={chatbox} alt="" />
-      </a> */}
+      <a href="">
+        <img id="chatbox" src={chatBox} alt="" />
+      </a>
       <div id="geotag">
         <p id="aesop"> &copy; Aesop </p>
         <a href="">
@@ -70,5 +68,4 @@ function Footer() {
     </div>
   );
 }
-
 export default Footer;

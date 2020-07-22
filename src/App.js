@@ -3,7 +3,8 @@ import './App.css';
 
 import AesopEssentials from './components/AesopEssentials';
 import NurturingFormulations from './components/NurturingFormulations';
-import Footer from './components/Footer';
+import Footer from './Components/footer';
+
 
 function App() {
   return (
