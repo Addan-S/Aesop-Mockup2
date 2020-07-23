@@ -1,6 +1,6 @@
 import React from 'react';
-import Bleecker from './assets/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg';
-
+import Bleecker from './images/aesop_essentials/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg';
+import './Styles/ArchiAndDesign.css'
 
 
 function ArchiAndDesign() {
@@ -47,7 +47,7 @@ function ArchiAndDesign() {
 }
 
 
-export default ArchiAndDesign;
+export default ArchiAndDesign();
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Styles/Discover.css'
 
 
 class Discover extends React.Component {
@@ -8,7 +8,7 @@ class Discover extends React.Component {
             <div className="parent">
 
                 <div className="image">
-                    <img src='../src/assets/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png' alt='Handwash Image'></img>
+                    <img src='../src/assets/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png' alt='Handwash'></img>
                 </div>
 
                 <div className="column1">
@@ -17,19 +17,19 @@ class Discover extends React.Component {
                     <h3>Kits & Duets</h3>
                     <ul>
                         <li>
-                            <a src='##'>Travel</a>
+                            <a href='##'>Travel</a>
                         </li>
 
                         <li>
-                            <a src='##'>Gift Kits</a>
+                            <a href='##'>Gift Kits</a>
                         </li>
 
                         <li>
-                            <a src='##'>Skin</a>
+                            <a href='##'>Skin</a>
                         </li>
 
                         <li>
-                            <a src='##'>Hand & Body</a>
+                            <a href='##'>Hand & Body</a>
                         </li>
 
                     </ul>

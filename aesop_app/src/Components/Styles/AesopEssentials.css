@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     align-items: end;
+    color: black;
 }
 
 .wrapper1-child{
@@ -27,6 +28,7 @@
     grid-template-columns: 26% 25% 25% 24%;
     justify-content: space-evenly;
     text-align: center;
+    color: black;
 
 }
 

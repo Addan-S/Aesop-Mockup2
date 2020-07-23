@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import jquery from 'jquery';
+import Carousel from 'react-bootstrap/Carousel'
 import { createPopper } from '@popperjs/core';
 import rosebody from './images/rosebody.png';
 import redemption from './images/redemption.png';
 import geraniumbody from './images/geraniumbody.png';
 import bodyslab from './images/bodyslab.png';
 import geraniumscrub from './images/geraniumscrub.png';
-
 export default class HandsAndBody extends Component {
     render() {
         return (
-            <div class = "container-sm">
+            <div class = "container">
+                 <div class="row">
+                <div class="col-sm">
                 <div className="HandsAndBodyHeading">
                     <p>For hands and body</p>
                     <h2>Daily cleansing</h2>
                     <p>Ensure impeccable hygiene with out range of mild yet efficacious formulations.</p>
                 </div>
-
-                <div id="handBodyCarousel" className="carousel slide" data-ride="carousel">
+            </div>
+            <div class="col-sm">
+                <div id="handBodyCarousel" className="carousel slide" data-ride="carousel"
+                class='col-sm'>
                 <ol class="carousel-indicators">
                     <li data-target="#handBodyCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#handBodyCarousel" data-slide-to="1"></li>
@@ -75,6 +78,8 @@ export default class HandsAndBody extends Component {
                     <span class="sr-only">Next</span>
                 </a>
                 </div>
+        </div>
+        </div>
         </div>
         )
     }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import odyssey from './images/odyssey.png'
+import odyssey from './images/odyssey.png';
+
 
 export default class AllGifts extends Component {
     render() {
@@ -11,17 +12,17 @@ export default class AllGifts extends Component {
                     <div class="col-sm" className="allGiftsDesc">
                     <h4 className="giftOdyssey">An odyssey of gifts, for generous and</h4> 
                     <h4 className="giftOdyssey">inspired giving</h4>
-                    <a>Seasonal Gift Kits</a> <br/><br/> 
-                    <a>Aesop favourites</a> <br/><br/> 
-                    <a>Small gestures</a> <br/><br/> 
-                    <a>Generous offerings</a> <br/><br/> 
-                    <a>Fragrant formulations</a> <br/><br/> 
-                    <a>Treats for self</a> <br/><br/> 
-                    <a>All gifts</a> <br/><br/> 
+                    <p>Seasonal Gift Kits</p> <br/><br/> 
+                    <p>Aesop favourites</p> <br/><br/> 
+                    <p>Small gestures</p> <br/><br/> 
+                    <p>Generous offerings</p> <br/><br/> 
+                    <p>Fragrant formulations</p> <br/><br/> 
+                    <p>Treats for self</p> <br/><br/> 
+                    <p>All gifts</p> <br/><br/> 
                     </div>
                     <div class="col-sm">
                         <br/> <br/> <br/>
-                    <img src={odyssey} alt="An abstract photo of stairs and shapes."/>
+                    <img src={odyssey} alt="An abstract  of stairs and shapes."/>
                     </div>
                 </div>
                 </div>

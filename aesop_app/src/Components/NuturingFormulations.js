@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './Styles/NurturingFormulations.css'
 import jquery from "jquery";
 import { createPopper } from '@popperjs/core';
-import Carousel from "react-bootstrap/Carousel";
-import Parsely from "src/assets/nurturing_formulations/Parsley-Seed-Facial-Cleanser.png";
-import Mandarin from "src/assets/nurturing_formulations/Mandarin-Facial-Hydrating-Cream.png";
-import Fabulous from "src/assets/nurturing_formulations/Fabulous-Face-Oil.png";
-import BnT from "src/assets/nurturing_formulations/B-Tea-Balancing-Toner.png";
-import Intwo from "src/assets/nurturing_formulations/In-Two-Minds-Facial-Cleanser.png";
+// import Carousel from "react-bootstrap/Carousel";
+import Carousel from 'react-bootstrap/Carousel'
+import Parsely from "./images/nurturing_formulations/Parsley-Seed-Facial-Cleanser.png";
+import Mandarin from "./images/nurturing_formulations/Mandarin-Facial-Hydrating-Cream.png";
+import Fabulous from "./images/nurturing_formulations/Fabulous-Face-Oil.png";
+import BnT from "./images/nurturing_formulations/B-Tea-Balancing-Toner.png";
+import Intwo from "./images/nurturing_formulations/In-Two-Minds-Facial-Cleanser.png";
 
 
 export default class NurturingFormulations extends Component {

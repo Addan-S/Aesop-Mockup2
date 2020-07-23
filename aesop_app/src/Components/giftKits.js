@@ -1,11 +1,15 @@
 import React from 'react';
-import Pic from '../assets/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png';
-import './styles/GiftKits.css';
+import Pic from './images/assets/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png';
+import './Styles/GiftKits.css';
 
 
 function GiftKits() {
-    return(
+    return (
         <div className="parent">
+            <br />
+            <br />
+            <br />
+            <br />
             
             <div className="row">
                 <div className="col-sm-3">
@@ -14,10 +18,10 @@ function GiftKits() {
                     <button >Explore seasonal Gift Kits &nbsp; &nbsp; &nbsp; &#8594;</button>
                 </div>
                 <div className="col-sm-9">
-                    <img className="pic" src={Pic} alt="Picture of Gift Kit" />
+                    <img className="pic" src={Pic} alt=" of Gift Kit" />
                 </div>
             </div>
-           
+        
         </div>
     )
 }

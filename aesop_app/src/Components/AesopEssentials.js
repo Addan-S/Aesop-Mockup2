@@ -1,10 +1,12 @@
 import React, { Component } from "react"
-//import 'src/Components/Styles/AesopEssentials.css';
-import Aesop1 from "../assets/aesop_essentials/Hand-Resurrection-Aromatique-Hand-Wash.png";
-import Aesop2 from "../assets/aesop_essentials/Body-Resurrection-Aromatique-Hand-Balm.png";
-import Aesop3 from "../assets/aesop_essentials/Personal-Deodorant.png";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import './Styles/AesopEssentials.css';
+import Aesop1 from "./images/aesop_essentials/Hand-Resurrection-Aromatique-Hand-Wash.png";
+import Aesop2 from "./images/aesop_essentials/Body-Resurrection-Aromatique-Hand-Balm.png";
+import Aesop3 from "./images/aesop_essentials/Personal-Deodorant.png";
+// import Carousel from "react-multi-carousel";
+import Carousel from 'react-bootstrap/Carousel'
+// import "react-multi-carousel/lib/styles.css";
+
 
 class AesopEssentials extends Component {
   render() {

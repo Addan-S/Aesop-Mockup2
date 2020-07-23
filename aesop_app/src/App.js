@@ -19,18 +19,18 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <ShippingModal />
+      { ShippingModal }
       <TitleBanner />
       <AesopEssentials />
-      <GiftKits />
+      { GiftKits }
       <Fragrance />
       <AllGifts />
       <HandsAndBody />
-      <ArchiAndDesign />
+      { ArchiAndDesign }
       <NurturingFormulations />
       <Discover />
       <SubFooter />
-      <Footer />
+      { Footer }
     </div>
   );
 }

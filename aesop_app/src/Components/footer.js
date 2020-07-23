@@ -1,7 +1,7 @@
 import React from 'react';
-import chatBox from './Components/images/chatbox-icon.png';
-import './styles/Footer.css';
-
+import chatBox from './images/chatbox-icon.png';
+import './Styles/Footer.css';
+ // aesop_app/src/Components/Styles
 function Footer() {
     return (
         <div className='footer' >
@@ -54,4 +54,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footer();
